@@ -1,4 +1,4 @@
-service: chatty
+service: chat-server
 
 functions: # Your "Functions"
   chatSend:
