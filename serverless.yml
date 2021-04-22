@@ -1,1 +1,11 @@
+service: chatty
 
+functions: # Your "Functions"
+  chatSend:
+    events: # The "Events" that trigger this function
+      - http: post chatty/send
+  chatReceive:
+    events:
+      - http: get chatty/receive
+
+resources: # The "Resources" your "Functions" use.  Raw AWS CloudFormation goes in here.
