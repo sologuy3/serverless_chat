@@ -1,4 +1,5 @@
 service: chat-server
+app: chat-thingy
 
 plugins:
   - serverless-plugin-common-excludes
